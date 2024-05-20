@@ -3,3 +3,5 @@ numpy
 Pillow
 selenium
 webdriver-manager
+requests
+gunicorn
