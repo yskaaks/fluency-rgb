@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unique Color Image Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Unique Color Image Generator</h1>
+        <div class="image-container">
+            <img id="colorImage" src="{{ url_for('generate_image') }}" alt="Unique Color Image">
+        </div>
+        <button id="generateButton">Generate New Image</button>
+    </div>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
